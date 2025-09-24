@@ -1,0 +1,43 @@
+Pertemuan 1
+- Python dan Bahasa Pemrograman
+- Mengapa kita menggunakan python di kelas ini (simple, popular dan multi-platform)
+- Installasi aplikasi untuk pembelajaran kuliah seperti python dan vscode
+- Program Hello World
+- Pengenalan print()
+- Pengenalan tipe data string, boolean, integer dan float
+- Pengenalan operator aritmatika (+, -, /, *, ** dan %)
+
+
+Pertemuan 2 
+- Pengenalan variable (Tidak boleh diawali angka, tidak boleh ada spasi, hanya boleh huruf/angka/underscore dan tidak boleh pakai keyword.)
+- Gaya penulisan variable (snake_case, camelCase, PascalCase/UpperCamelCase dan UPPER_CASE/SCREAMING_SNAKE_CASE)
+- Pengenalan type casting
+- Pengenalan input()
+
+
+Pertemuan 3 
+- Pengenalan operator perbandingan (==, !=, <, >, <= dan >=)
+- Pengenalan operator logika (and, or dan not)
+- Pengenalan fungsi (if, elif dan else. lalu berikan juga penjelasan fungsi tanpa return dan fungsi dengan return)
+
+
+Pertemuan 4 
+- Pengenalan while loop 
+- Pengenalan for loop
+- Pengenalan keyword break dan continue
+
+
+Pertemuan 5 
+- Pengenalan list dan tuple
+- Mengakses list menggunakan index dan memotong list
+- Pengenalan Perulangan pada list
+- Pengenalan operasi dasar (append, remove, pop, insert dan seterusnya)
+
+
+Pertemuan 6
+- Pengenalan Dictionary
+- Pengenalan operasi dasar
+
+
+Pertemuan 7
+RESPONSI PEMBELAJARAN

@@ -1,0 +1,1 @@
+print("Selamat datang di kelas alpro")

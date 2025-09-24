@@ -1,0 +1,7 @@
+draft pertemuan 8-13
+modularity dan pip (bahas sedikit package umum dari pip)
+penggunaan db
+error handling
+study kasus bersama (tugas akan menambahkan fitur)
+
+p-14 responsi
