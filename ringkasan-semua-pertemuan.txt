@@ -11,6 +11,7 @@ Pertemuan 1
 Pertemuan 2 
 - Pengenalan variable (Tidak boleh diawali angka, tidak boleh ada spasi, hanya boleh huruf/angka/underscore dan tidak boleh pakai keyword.)
 - Gaya penulisan variable (snake_case, camelCase, PascalCase/UpperCamelCase dan UPPER_CASE/SCREAMING_SNAKE_CASE)
+- Concat/menggabungkan string
 - Pengenalan type casting
 - Pengenalan input()
 
@@ -18,10 +19,11 @@ Pertemuan 2
 Pertemuan 3 
 - Pengenalan operator perbandingan (==, !=, <, >, <= dan >=)
 - Pengenalan operator logika (and, or dan not)
-- Pengenalan fungsi (if, elif dan else. lalu berikan juga penjelasan fungsi tanpa return dan fungsi dengan return)
+- Pengenalan percabangan if, elif dan else
 
 
 Pertemuan 4 
+- Pengenalan fungsi (lalu berikan juga penjelasan fungsi tanpa return dan fungsi dengan return)
 - Pengenalan while loop 
 - Pengenalan for loop
 - Pengenalan keyword break dan continue

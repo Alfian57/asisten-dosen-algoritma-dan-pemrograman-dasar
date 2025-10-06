@@ -8,6 +8,7 @@ print("selamat datang")
 print("ALFIAN GADING")
 
 # 2. integer
+# untuk menampung bilangan bulat, bisa positif maupun negatif
 print(1 + 1) # PENJUMLAHAN
 print(5 - 2) # PENGURANGAN
 print(6 / 2) # PEMBAGIAN
@@ -18,6 +19,7 @@ print(2 ** 3) # PANGKAT
 # 3. float
 # sama seperti integer bisa digunakan untuk operasi
 # matematika, namun bisa menyimpan angka koma
+# untuk menampung bilangan decimal, bisa positif maupun negatif
 print(1.4 + 1.2) # PENJUMLAHAN
 print(5.5 - 2.3) # PENGURANGAN
 print(10 / 2.5) # PEMBAGIAN

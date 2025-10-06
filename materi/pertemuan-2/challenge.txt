@@ -1,0 +1,9 @@
+Silahkan buat program dengan spesifikasi berikut:
+1. Program meminta pengguna untuk memasukkan suhu dalam Celcius (gunakan tipe data float agar bisa menerima angka desimal). poin 30
+2. Program menghitung suhu dalam Fahrenheit menggunakan rumus di atas. poin 50
+3. Program menampilkan hasil konversi dalam format yang mudah dibaca. poin 20
+
+RUMUS CELCIUS KE FAHRENHEIT = (9/5) * C + 32
+
+WAKTU PENGERJAAN: 15 menit
+JIKA LEBIH DARI 15 MENIT, AKAN NILAI AKAN DIKURANGI 10 SETIAP 5 MENIT
