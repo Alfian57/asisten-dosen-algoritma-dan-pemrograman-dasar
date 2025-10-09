@@ -23,22 +23,23 @@ Pertemuan 3
 
 
 Pertemuan 4 
-- Pengenalan fungsi (lalu berikan juga penjelasan fungsi tanpa return dan fungsi dengan return)
+- Pengenalan fungsi
+- Pengenalan return pada fungsi
+- Pengenalan parameter dan argumen
+- Pengenalan scope variable (local dan global)
+
+
+Pertemuan 5
 - Pengenalan while loop 
 - Pengenalan for loop
 - Pengenalan keyword break dan continue
 
 
-Pertemuan 5 
+Pertemuan 6
 - Pengenalan list dan tuple
 - Mengakses list menggunakan index dan memotong list
 - Pengenalan Perulangan pada list
 - Pengenalan operasi dasar (append, remove, pop, insert dan seterusnya)
-
-
-Pertemuan 6
-- Pengenalan Dictionary
-- Pengenalan operasi dasar
 
 
 Pertemuan 7
