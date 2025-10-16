@@ -4,6 +4,7 @@ penggunaan db
 error handling
 study kasus bersama (tugas akan menambahkan fitur)
 dictionary
+jenis error
 sistem login sederhana
 
 p-14 responsi

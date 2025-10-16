@@ -24,9 +24,9 @@ Pertemuan 3
 
 Pertemuan 4 
 - Pengenalan fungsi
-- Pengenalan return pada fungsi
 - Pengenalan parameter dan argumen
 - Pengenalan scope variable (local dan global)
+- Pengenalan return pada fungsi
 
 
 Pertemuan 5

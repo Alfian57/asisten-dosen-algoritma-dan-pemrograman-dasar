@@ -1,0 +1,46 @@
+===== Kalkulator Sederhana =====
+
+Tujuan:
+    Membuat program kalkulator sederhana untuk melakukan operasi aritmetika dasar.
+
+Input Program:
+    Pengguna memilih operasi yang ingin dilakukan:
+        1 → Penjumlahan
+        2 → Pengurangan
+        3 → Perkalian
+        4 → Pembagian
+
+    Selanjutnya, pengguna memasukkan dua buah bilangan (float).
+
+Logika Program:
+    - Jika operasi adalah 1 (Penjumlahan), maka:
+      hasil = bilangan1 + bilangan2
+
+    - Jika operasi adalah 2 (Pengurangan), maka:
+      hasil = bilangan1 - bilangan2
+
+    - Jika operasi adalah 3 (Perkalian), maka:
+      hasil = bilangan1 * bilangan2
+
+    - Jika operasi adalah 4 (Pembagian), maka:
+      hasil = bilangan1 / bilangan2
+
+    Note:
+    - Gunakan fungsi untuk setiap operasi perhitungan.
+    - Input dan output (print) berada di luar fungsi.
+
+Output Program:
+    Jika operasi adalah 1, tampilkan:
+    "Hasil Penjumlahan: {hasil}"
+
+    Jika operasi adalah 2, tampilkan:
+    "Hasil Pengurangan: {hasil}"
+
+    Jika operasi adalah 3, tampilkan:
+    "Hasil Perkalian: {hasil}"
+
+    Jika operasi adalah 4, tampilkan:
+    "Hasil Pembagian: {hasil}"
+
+    Selain input 1–4, tampilkan pesan kesalahan:
+    "Operasi tidak dikenal."
