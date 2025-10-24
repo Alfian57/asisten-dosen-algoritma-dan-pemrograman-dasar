@@ -1,0 +1,22 @@
+===== PENILAIAN =====
+
+Program:
+    1. Login (15 poin)
+    2. Lihat Profil Pengguna (15 poin)
+    3. Hitung Nilai Rata-rata tugas (10 poin)
+    4. Logout (10 poin)
+    5. Penanganan input yang tidak valid (10 poin)
+    6. Gaya penulisan (10 poin)
+
+Praktik Langsung (Pilih salah satu untuk diujikan, 30 poin):
+    1. Mengubah bobot nilai rata-rata tugas. Semisal tugas pertama 20%, tugas kedua 30%, tugas ketiga 50%
+    2. Menambahkan menu baru pada dashboard, "Ganti Nama"
+    3. Menambahkan menu baru pada dashboard, "Ganti NIM"
+    4. Menambahkan menu baru pada dashboard, "Ganti Password"
+    5. Menambahkan validasi input pada menu hitung nilai rata-rata tugas. Misal nilai tugas harus diantara 0-100
+
+
+Catatan:
+    - Total skor program maksimal adalah 70 poin
+    - Total skor praktik maksimal adalah 30 poin
+    - Skor akhir adalah penjumlahan dari skor program dan skor praktik

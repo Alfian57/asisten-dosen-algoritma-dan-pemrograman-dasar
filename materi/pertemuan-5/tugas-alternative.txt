@@ -1,0 +1,21 @@
+===== Faktorial =====
+
+Tujuan:
+    Membuat program untuk menghitung faktorial dari sebuah bilangan bulat non-negatif yang dimasukkan oleh pengguna.
+
+Input Program:
+    - Bilangan bulat non-negatif (integer)
+
+Logika Program:
+    - Jika bilangan yang dimasukkan kurang dari 0:
+        - Tampilkan "Input tidak valid. Masukkan bilangan bulat non-negatif."
+    - Jika bilangan yang dimasukkan adalah 0:
+        - Langsung berikan hasil nya adalah 1
+    - Jika bilangan yang dimasukkan lebih dari 0:
+        - Hitung faktorial dengan mengalikan semua bilangan bulat dari 1 hingga bilangan tersebut.
+
+Output Program:
+    - Tampilkan hasil faktorial dengan format "Faktorial dari [bilangan] adalah [hasil]".
+
+Waktu Pengerjaan:
+    10 menit

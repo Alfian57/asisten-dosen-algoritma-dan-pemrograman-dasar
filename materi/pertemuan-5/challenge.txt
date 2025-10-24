@@ -1,0 +1,34 @@
+===== Menampilkan Bilangan Ganjil =====
+
+Tujuan:
+    Menghitung dari 1 hingga N dan menampilkan hanya bilangan ganjil.
+
+Input Program:
+    - N (integer)
+
+Logika Program:
+    - Minta pengguna untuk memasukkan nilai N.
+    - Gunakan loop untuk menghitung dari 1 hingga N.
+    - Periksa setiap bilangan, jika bilangan tersebut ganjil, cetak bilangan tersebut.
+
+Output Program:
+    - Semisal N = 10, outputnya adalah:
+      1
+      3
+      5
+      7
+      9
+
+    - Semisal N = 15, outputnya adalah:
+      1
+      3
+      5
+      7
+      9
+      11
+      13
+      15
+
+
+Waktu Pengerjaan:
+    5 menit, Jika lebih dari itu, akan dikurangi 10 poin setiap 5 menit.

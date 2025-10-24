@@ -1,0 +1,21 @@
+===== Menu Login =====
+
+Tujuan:
+    Membuat program login sederhana yang memverifikasi NIM dan password dari input pengguna.
+
+Input Program:
+    - NIM (string)
+    - Password (string)
+
+Menu Program:
+    1. Login
+    2. Batal
+
+Logika Program:
+    - Jika pengguna memilih "Login":
+        - Minta input NIM dan password.
+        - Jika NIM adalah "520411121" dan password adalah "rahasia", tampilkan "Login Berhasil".
+        - Jika tidak, tampilkan "Login Gagal".
+        - Ulangi menu program.
+    - Jika pengguna memilih "Batal":
+        - Tampilkan "Terima kasih telah menggunakan program ini." dan akhiri program.

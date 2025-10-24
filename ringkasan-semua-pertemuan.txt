@@ -31,8 +31,10 @@ Pertemuan 4
 
 Pertemuan 5
 - Pengenalan while loop 
-- Pengenalan for loop
 - Pengenalan keyword break dan continue
+- Pengenalan fungi range()
+- Pengenalan for loop
+- Pengenalan nested loop
 
 
 Pertemuan 6
