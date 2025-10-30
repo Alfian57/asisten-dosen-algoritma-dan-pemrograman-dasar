@@ -1,0 +1,30 @@
+===== Data Nilai Mahasiswa =====
+
+Menu Program:
+    1. Tambah Nilai Mahasiswa
+    2. Tampilkan Nilai Mahasiswa
+    3. Tampilkan Nilai Mahasiswa terbesar
+    4. Tampilkan Nilai Mahasiswa terkecil
+    5. Keluar
+
+Logika Program:
+    1. Buat sebuah list bernama nilai_mahasiswa
+    2. Jika user memilih opsi 1, maka:
+       - Input Nilai Mahasiswa Ke-i (int)
+       - Simpan data tersebut dalam list nilai_mahasiswa
+    3. Jika user memilih opsi 2, maka:
+       - Tampilkan seluruh nilai mahasiswa menggunakan loop
+    4. Jika user memilih opsi 3, maka:
+       - Tampilkan nilai terbesar menggunakan loop dan conditional
+       - Note: Jangan gunakan fungsi max()
+    5. Jika user memilih opsi 4, maka:
+       - Tampilkan nilai terkecil menggunakan loop dan conditional
+       - Note: Jangan gunakan fungsi min()
+    6. Jika user memilih opsi 5, maka:
+       - Keluar dari program
+
+Catatan:
+    - Buat program dalam sebuah loop
+    - Buat sebuah fungsi untuk print menu
+    - Buat sebuah fungsi untuk setiap opsi menu di atas
+    

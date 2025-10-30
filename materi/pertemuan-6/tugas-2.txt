@@ -1,0 +1,21 @@
+===== Dasar Tuple dan Dictionary =====
+
+Logika Program:
+    1. Buat sebuah tuple bernama data_diri yang berisi:
+       - Nama
+       - NIM
+       - Jurusan
+    2. Buat dictionary bernama nilai_mk dengan:
+       - Key: nama mata kuliah
+       - Value: nilai mata kuliah
+       - Isi: Kalkulus, Logika Informatika, dan Alpro
+    3. Cetak nama dan jurusan dari tuple
+    4. Tampilkan seluruh nilai mata kuliah menggunakan values()
+    5. Tambahkan mata kuliah baru:
+       - Mata Kuliah: Bahasa Inggris
+       - Nilai: 88
+    6. Ubah nilai Kalkulus menjadi 82
+    7. Tampilkan seluruh isi dictionary nilai_mk
+
+Waktu Pengerjaan:
+    10 menit

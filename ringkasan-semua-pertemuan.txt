@@ -38,10 +38,11 @@ Pertemuan 5
 
 
 Pertemuan 6
-- Pengenalan list dan tuple
-- Mengakses list menggunakan index dan memotong list
+- Pengenalan indexing pada list
+- Pengenalan list dan operasinya (Akses, memotong, mengubah, append, insert, remove, pop dan sort)
+- Pengenalan tuple
+- Pengenalan dictionary dan operasinya (Akses, mengubah, keys(), values() dan items())
 - Pengenalan Perulangan pada list
-- Pengenalan operasi dasar (append, remove, pop, insert dan seterusnya)
 
 
 Pertemuan 7

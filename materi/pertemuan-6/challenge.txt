@@ -1,0 +1,31 @@
+===== Sistem Penilaian Mahasiswa (List + Dict + Perulangan + Fungsi + Percabangan) =====
+
+Tujuan:
+    Membuat program sederhana untuk mengelola data nilai mahasiswa dengan autentikasi
+
+Logika Program:
+    1. Program menampilkan menu awal:
+       === Sistem Nilai Mahasiswa ===
+       1. Login
+       2. Register
+       3. Keluar
+    2. Setelah login berhasil, tampilkan menu utama:
+       === Dashboard Nilai Mahasiswa ===
+       1. Tambah data mahasiswa
+       2. Lihat semua data
+       3. Logout
+    3. Data user disimpan sebagai dictionary dalam list users:
+       {"username": "admin", "password": "admin123"}
+    4. Setiap data mahasiswa disimpan sebagai dictionary, misalnya:
+       {"nama": "Alfian", "nim": "5230411121", "nilai": 90}
+    6. Gunakan perulangan (while True) dan kondisi (if-elif-else) untuk menu
+    7. Fungsi-fungsi yang perlu dibuat:
+       - register(): untuk mendaftarkan user baru
+       - login(): untuk login user (return True/False)
+       - tambah_data(): untuk menambah data mahasiswa
+       - lihat_data(): untuk menampilkan semua data mahasiswa
+
+
+Waktu Pengerjaan:
+    15 menit setiap 10 menit terlambat akan dikurangi 10 poin dari total nilai
+
