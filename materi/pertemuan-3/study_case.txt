@@ -1,0 +1,30 @@
+===== Sistem Pengiriman Paket =====
+
+Tujuan:
+	Menentukan biaya pengiriman berdasarkan kota tujuan dan berat paket.
+
+Input Program:
+	Kota tujuan: 1 (Yogyakarta) atay 2 (Bandung)
+	Berat paket: Angka (float, dalam kg)
+
+Logika Program:
+	Program menentukan biaya pengiriman dengan memperhatikan dua input: kota tujuan dan berat paket.
+	- Jika kota tujuan adalah 1 (Yogyakarta):
+		- Jika berat <= 0 kg, tampilkan pesan kesalahan "Berat paket tidak valid."
+		- Jika berat <= 1 kg, biaya = Rp 10.000
+		- Jika berat > 1 kg dan <= 5 kg, biaya = Rp 25.000
+		- Selain itu, biaya = Rp 50.000
+	- Jika kota tujuan adalah 2 (Bandung):
+		- Jika berat <= 0 kg, tampilkan pesan kesalahan "Berat paket tidak valid."
+		- Jika berat <= 1 kg, biaya = Rp 12.000
+		- Selain itu, biaya = Rp 30.000
+	- Jika kota tujuan adalah 3 (Surabaya):
+		- Jika berat <= 0 kg, tampilkan pesan kesalahan "Berat paket tidak valid."
+		- Jika berat <= 2 kg, biaya = Rp 20.000
+		- Jika berat > 2 kg dan <= 10 kg, biaya = Rp 80.000
+		- Selain itu, biaya = Rp 100.000
+	- Untuk kota selain 'Yogyakarta' atau 'Bandung', program menampilkan pesan bahwa input tidak valid.
+
+Output Program:
+	- Jika kota dilayani, tampilkan "Biaya pengiriman adalah: Rp <harga>".
+	- Jika kota tidak dilayani, tampilkan pesan kesalahan sesuai kondisi.

@@ -1,0 +1,51 @@
+STUDI KASUS: Batch Processor Nilai Siswa
+
+Skenario:
+Dosen punya file berisi nama dan nilai mahasiswa.
+Tugas kamu: buat program yang membaca file tersebut, menentukan status LULUS/REMEDIAL (logika di module terpisah), lalu simpan hasilnya ke file baru.
+
+Struktur Folder:
+Buat folder dan file seperti ini:
+
+challenge/
+|- data_mentah.txt         (File input, isi manual)
+|- main.py                 (Program utama)
+|- logika_nilai.py         (Modul logika)
+
+Langkah Pengerjaan:
+1. Buat data_mentah.txt
+  Isi dengan data berikut (format: Nama,Nilai):
+  Budi,80
+  Siti,50
+  Joko,90
+  Rina,60
+
+2. Buat Module logika_nilai
+  Di logika_nilai.py, buat fungsi:
+  def cek_status(nilai):
+     if nilai >= 75:
+        return "LULUS"
+     else:
+        return "REMEDIAL"
+
+3. Buat main.py
+  Import fungsi cek_status dari akademik_lib.
+  Baca file data_mentah.txt (pakai with open).
+  Proses setiap baris: ambil nama dan nilai, tentukan status dengan cek_status.
+  Tulis hasil ke file baru laporan_hasil.txt (format: Nama - Nilai - Status).
+
+Output yang Diharapkan:
+Setelah dijalankan, akan muncul file laporan_hasil.txt berisi:
+Budi - 80 - LULUS
+Siti - 50 - REMEDIAL
+Joko - 90 - LULUS
+Rina - 60 - REMEDIAL
+ berhasil dibuat! Cek file laporan_hasil.txt
+Kriteria Penilaian:
+- Logika LULUS/REMEDIAL ada di module, bukan di main.py.
+- File input dibaca dengan benar.
+- File output dibuat tanpa error.
+- Gunakan with open untuk semua operasi file.
+
+Jika sudah benar, kamu sudah paham cara membuat program Python dengan modularisasi dan file operasi! berhasil dibuat! Cek file laporan_hasil.txt
+Sampai 16.20, setiap lebih dari 10 menit, dikurangi 10 poin

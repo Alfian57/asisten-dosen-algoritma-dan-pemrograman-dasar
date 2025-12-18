@@ -1,0 +1,38 @@
+===== Kalkulator Luas Bangun Datar =====
+
+Tujuan:
+    Menetukan luas persegi panjang, persegi, dan lingkaran
+
+Input Program:
+    Bangun Datar: 1 (Persegi Panjang), 2 (Persegi), atau 3 (Lingkaran)
+
+    - Jika 1 (Persegi Panjang), input selanjutnya:
+        - panjang (float, dalam cm)
+        - lebar (float, dalam cm)
+    - Jika 2 (Persegi), input selanjutnya:
+        - sisi (float, dalam cm)
+    - Jika 3 (Lingkaran), input selanjutnya:
+        - jari-jari (float, dalam cm)
+
+Logika Program:
+    - Jika bangun datar adalah 1 (Persegi Panjang), maka:
+        - Luas = panjang * lebar
+    - Jika bangun datar adalah 2 (Persegi), maka:
+        - Luas = sisi * sisi
+    - Jika bangun datar adalah 3 (Lingkaran), maka:
+        - Luas = (22/7) * jari-jari * jari-jari
+
+    Note: Gunakan fungsi untuk setiap perhitungan luas di atas.
+    Note: Input dan print output di luar fungsi.
+
+Output Program:
+    - Jika bangun datar adalah 1 (Persegi Panjang), maka:
+        - Tampilkan "Luas Persegi Panjang: {Luas} cm²"
+    - Jika bangun datar adalah 2 (Persegi), maka:
+        - Tampilkan "Luas Persegi: {Luas} cm²"
+    - Jika bangun datar adalah 3 (Lingkaran), maka:
+        - Tampilkan "Luas Lingkaran: {Luas} cm²"
+    - Selain input 1, 2, atau 3, program akan menampilkan pesan kesalahan.
+
+Waktu:
+    20 menit

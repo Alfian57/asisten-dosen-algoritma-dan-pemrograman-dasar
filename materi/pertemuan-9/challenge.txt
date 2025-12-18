@@ -1,0 +1,24 @@
+Buatkan sebuah kalkulator sederhana dalam Python yang dapat melakukan operasi penjumlahan, pengurangan, perkalian, dan pembagian.
+
+Menu:
+1. Penjumlahan
+2. Pengurangan
+3. Perkalian
+4. Pembagian
+
+Skenario 1:
+Pilih operasi (1/2/3/4): 4
+Masukkan angka pertama: 10
+Masukkan angka kedua: 2
+Hasil: 5.0
+
+Skenario 2:
+Pilih operasi (1/2/3/4): 1
+Masukkan angka pertama: sepuluh
+Error: Input salah! Mohon masukkan angka saja.
+
+Skenario 3:
+Pilih operasi (1/2/3/4): 4
+Masukkan angka pertama: 10
+Masukkan angka pertama: 0
+Error: Tidak bisa membagi dengan nol!

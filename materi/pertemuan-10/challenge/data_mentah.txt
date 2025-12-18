@@ -1,0 +1,4 @@
+Budi,80
+Siti,50
+Joko,90
+Rina,60

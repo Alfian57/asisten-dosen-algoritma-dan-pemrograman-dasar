@@ -1,0 +1,30 @@
+JUDUL PROYEK: Smart Coffee Shop CLI
+
+Program Anda harus memiliki alur sebagai berikut:
+
+1. Tampilkan Menu (tabulate + colorama)
+   - Buatlah data menu (Nama Minuman, Harga) menggunakan List of list.
+   - Tampilkan menu tersebut dalam bentuk tabel yang rapi.
+   - Berikan warna header tabel agar menarik.
+
+2. Input Pesanan (Logika Dasar)
+   - User menginput nama.
+   - User menginput nomor menu.
+   - User menginput jumlah pesanan.
+   - Program menghitung Total Harga.
+
+3. Fitur Edukasi (wikipedia)
+   - Setelah memesan, program secara otomatis mencari dan menampilkan summary tentang minuman yang dipesan dari wikipedia.
+     Misal: cari keyword "Kopi" atau "Teh" atau "Espresso" di Wikipedia Indonesia.
+
+4. Generasi Pembayaran (qrcode)
+   - Buatlah QR Code yang berisi string pembayaran dengan format: BAYAR_[NAMA]_[TOTAL_HARGA].
+   - Contoh isi QR: BAYAR_BUDI_50000
+   - Simpan QR Code tersebut dengan nama file: Struk_[NamaUser].png.
+
+5. Interface Menarik (colorama)
+   - Gunakan warna hijau untuk uang/harga.
+   - Gunakan warna cyan/biru untuk dekorasi.
+
+Note: Gunakan try except untuk menangani error. semisal user menginputkan bukan angka
+      GUnakan warna merah untuk pesan error

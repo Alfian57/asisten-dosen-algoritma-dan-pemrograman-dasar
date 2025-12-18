@@ -1,0 +1,68 @@
+Pertemuan 1
+- Python dan Bahasa Pemrograman
+- Mengapa kita menggunakan python di kelas ini (simple, popular dan multi-platform)
+- Installasi aplikasi untuk pembelajaran kuliah seperti python dan vscode
+- Program Hello World
+- Pengenalan print()
+- Pengenalan tipe data string, boolean, integer dan float
+- Pengenalan operator aritmatika (+, -, /, *, ** dan %)
+
+
+Pertemuan 2 
+- Pengenalan variable (Tidak boleh diawali angka, tidak boleh ada spasi, hanya boleh huruf/angka/underscore dan tidak boleh pakai keyword.)
+- Gaya penulisan variable (snake_case, camelCase, PascalCase/UpperCamelCase dan UPPER_CASE/SCREAMING_SNAKE_CASE)
+- Concat/menggabungkan string
+- Pengenalan type casting
+- Pengenalan input()
+
+
+Pertemuan 3 
+- Pengenalan operator perbandingan (==, !=, <, >, <= dan >=)
+- Pengenalan operator logika (and, or dan not)
+- Pengenalan percabangan if, elif dan else
+
+
+Pertemuan 4 
+- Pengenalan fungsi
+- Pengenalan parameter dan argumen
+- Pengenalan scope variable (local dan global)
+- Pengenalan return pada fungsi
+
+
+Pertemuan 5
+- Pengenalan while loop 
+- Pengenalan keyword break dan continue
+- Pengenalan fungi range()
+- Pengenalan for loop
+- Pengenalan nested loop
+
+
+Pertemuan 6
+- Pengenalan indexing pada list
+- Pengenalan list dan operasinya (Akses, memotong, mengubah, append, insert, remove, pop dan sort)
+- Pengenalan tuple
+- Pengenalan dictionary dan operasinya (Akses, mengubah, keys(), values() dan items())
+- Pengenalan Perulangan pada list
+
+
+Pertemuan 7
+RESPONSI PEMBELAJARAN
+
+Pertemuan 8
+- Pengenalan HTML
+- Pengenalan CSS
+
+Pertemuan 9
+- Jenis Error
+- Debugging
+- Testing
+
+Pertemuan 10
+- Pengenalan modul dan package
+
+Pertemuan 11
+- Perkenalan PIP
+- Library Colorama
+- Library Tabulate
+- Library QrCode
+- Library Wikipedia

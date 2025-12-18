@@ -1,0 +1,30 @@
+===== Sistem Login Sederhana (List of Dictionary) =====
+
+
+Logika Program:
+    1. Buat sebuah list bernama users yang berisi beberapa dictionary.
+       Setiap dictionary merepresentasikan seorang user dengan key:
+       - username
+       - password
+    
+    2. Buat fungsi untuk menampilkan menu:
+       Menu Program:
+           1. Login
+           2. Register
+           3. Exit
+    
+    3. Jika user memilih opsi 1 (Login), maka:
+       - Input username dan password
+       - Cek apakah username dan password sesuai dengan salah satu 
+         dictionary dalam list users
+       - Jika sesuai, tampilkan pesan "Login Berhasil"
+       - Jika tidak sesuai, tampilkan pesan "Login Gagal"
+    
+    4. Jika user memilih opsi 2 (Register), maka:
+       - Input username dan password baru
+       - Tambahkan dictionary baru ke dalam list users dengan 
+         username dan password yang diinputkan
+       - Tampilkan pesan "Registrasi Berhasil"
+    
+    5. Jika user memilih opsi 3 (Keluar), maka:
+       - Keluar dari program

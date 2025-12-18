@@ -1,0 +1,31 @@
+
+Studi Kasus: Toolkit Geometri Arsitek
+
+Skenario:
+Sebuah biro arsitek ingin program Python sederhana untuk menghitung luas bangunan dan estimasi jumlah kaleng cat yang dibutuhkan.
+Mereka ingin kode yang rapi dan terpisah dalam beberapa file (bukan satu file saja).
+
+Tugas Kamu:
+1. Buat struktur folder berikut:
+	 tugas-1/
+	 ├── main.py
+	 ├── hitung_luas.py
+	 └── hitung_material.py
+
+2. Isi masing-masing file:
+	 - hitung_luas.py
+		 Buat fungsi lingkaran(radius): menghitung luas lingkaran (3.14 x r x r), gunakan math.pi.
+		 Buat fungsi persegi(sisi): menghitung luas persegi (s x s).
+
+	 - hitung_material.py
+		 Buat fungsi cek_kebutuhan_cat(luas_dinding):
+			 1 kaleng cat menutupi 10 meter persegi.
+			 Pastikan mereturn integer, bukan float. Bisa pake math.ceil().
+
+	 - main.py
+		 Import module dari package dengan cara yang benar (boleh pakai alias).
+		 Minta input dari user (jari-jari atau sisi).
+		 Tampilkan hasil luas dan jumlah kaleng cat yang dibutuhkan.
+		 Tidak boleh ada rumus matematika di sini, hanya panggil fungsi dari module.
+
+Kerjakan sesuai petunjuk di atas. Jika sudah benar, kamu sudah paham cara membuat Package dan Module di Python!

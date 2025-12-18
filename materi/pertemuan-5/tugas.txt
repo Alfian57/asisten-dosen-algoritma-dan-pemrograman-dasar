@@ -1,0 +1,29 @@
+===== Menggambar Segitiga Siku-Siku =====
+
+Tujuan:
+    Menggambar segitiga bintang berdasarkan tinggi yang diberikan oleh pengguna.
+
+Input Program:
+    - Tinggi segitiga (integer)
+
+Logika Program:
+    - Minta pengguna untuk memasukkan tinggi segitiga.
+    - Gunakan loop untuk mencetak bintang pada setiap baris sesuai dengan tinggi yang dimasukkan.
+
+Output Program:
+    - Semisal tinggi = 4, outputnya adalah:
+      *
+      **
+      ***
+      ****
+
+    - Semisal tinggi = 6, outputnya adalah:
+      *
+      **
+      ***
+      ****
+      *****
+      ******
+
+Waktu Pengerjaan:
+    10 menit

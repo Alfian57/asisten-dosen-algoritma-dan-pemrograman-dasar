@@ -1,0 +1,95 @@
+Halo teman teman, untuk soal tugas dirumah sudah saya buat. Untuk deadlinenya ada di tanggal 22 Okteber dan dikumpulkan saat kelas berlangsung. Berikut adalah soalnya:
+
+===== Sistem Login dan Dashboard Mahasiswa =====
+
+🎯 Tujuan:
+Membuat program CLI sederhana yang mensimulasikan proses login pengguna dan menu dashboard mahasiswa. 
+
+Materi pertemuan yang dipakai dalam soal:
+- Variabel dan tipe data dasar
+- Variabel scope
+- Gaya penulisan variabel (snake_case dan camelCase) 
+- Fungsi, parameter, dan return
+- Fungsi Bawaan/Built-in Function (Input dan print) 
+- Percabangan if, elif, dan else
+- Percabangan bersarang/bertingkat
+- Operator aritmatika dan logika
+
+Gaya penulisan:
+- Penamaan variabel harus menggunakan snake_case
+- Penamaan fungsi harus menggunakan camelCase
+
+
+
+🧠 Deskripsi Program:
+Program ini terdiri dari dua tahap utama:
+1. Login
+2. Dashboard
+
+
+
+🛠️ Tahap persiapan:
+Buat global variabel pada awal program. Variabel tersebut adalah nama, nim, password, tanggal lahir dan alamat. Isikan nilai untuk variabel tersebut. Untuk nama dan nim, isikan dengan data asli. Password, tanggal lahir dan alamat bisa menggunakan data dummy saja. 
+
+
+
+🪪 Tahap Login:
+Buat sebuah fungsi bernama "login" yang menerima 2 parameter, yaitu NIM dan password. Fungsi tersebut akan melakukan pengecekan NIM dan password. Fungsi tersebut akan melakukan return sebuah boolean. Jika NIM dan password benar, return True. Jika Tidak return False. 
+
+Login akan menggunakan NIM dan password. 
+User diminta memasukkan NIM dan password melalui input().
+Lalu dilakukan pengecekan NIM dan password.
+Logika untuk pengecekan akan memanggil sebuah fungsi bernama "login" dan jangan lupa memberikan argumen saat memanggil fungsi tersebut.
+
+Jika login berhasil, lanjut ke menu dashboard.
+Jika login gagal, tampilkan: "NIM atau password salah!", lalu program berhenti.
+
+
+
+🧾 Tahap Dashboard:
+Setelah login berhasil, tampilkan menu CLI berikut:
+
+===== DASHBOARD MAHASISWA =====
+1. Lihat Profil Pengguna
+2. Hitung Nilai Rata-rata tugas
+3. Logout
+
+User dapat memilih menu dengan memasukkan angka 1–3.
+Berikan pesan kesalahan jika user memilih angka selain 1-3.
+Gunakan percabangan if/elif/else untuk menentukan aksi sesuai pilihan.
+
+
+📋 Penjelasan Tiap Menu:
+1️⃣ Lihat Profil Pengguna
+Buat sebuah fungsi bernama "tampilkanProfil" yang tidak memiliki parameter apapun. Fungsi tersebut juga tidak memiliki return value. Didalamnya akan melakukan print profil mahasiswa (nama, nim, tanggal lahir dan alamat).
+Output profil yang diharapkan:
+Nama: Alfian Gading
+NIM: 520411121
+Tanggal Lahir: 1 januari 1945
+Alamat: Zimbabwe
+
+Menampilkan informasi mahasiswa dari global variabel yang sudah dibuat sebelumnya. Tampilkan nama, nim, tanggal lahir dan alamat (password tidak perlu ditampilkan)
+Untuk menampilkan profil, panggil fungsi bernama, "tampilkanProfil".
+
+2️⃣ Hitung Nilai Rata-rata tugas
+Menu ini akan memberikan nilai rata rata tugas selama semester ini.
+Tugas pertama memiliki bobot 25%.
+Tugas kedua memiliki bobot 25%.
+Tugas ketiga memiliki bobot 50%.
+
+Buat sebuah fungsi bernama "hitungRataRata" yang menerima tiga parameter, yaitu tugas pertama, tugas kedua dan tugas ketiga. Didalamnya akan melakukan perhitungan rata rata nilai. Fungsi tersebut akan melakukan return float. Return rata ratanya.
+Rumus perhitungan:
+rata_rata = (0.25 * tugas_pertama) + (0.25 * tugas_kedua) + (0.5 * tugas_ketiga)
+
+User akan diminta untuk memasukan nilai tugas pertama (skala 1-100).
+User akan diminta untuk memasukan nilai tugas kedua (skala 1-100).
+User akan diminta untuk memasukan nilai tugas ketiga (skala 1-100).
+Konversi semua string input menjadi float.
+Untuk melakukan perhitungan, panggil fungsi "hitungRataRata".
+Berikan output "Nilai rata-rata kamu adalah <rata_rata>"
+
+3️⃣ Logout
+Menampilkan pesan: "Terima kasih sudah berkunjung!" kemudian keluar dari program.
+
+
+Selamat mengerjakan ☺️☺️

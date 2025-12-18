@@ -1,0 +1,33 @@
+===== Sistem Rekomendasi Pakaian =====
+
+Tujuan:
+    Menentukan ukuran pakaian (S, M, L, XL)
+
+Input Program:
+    Gender: 1 (Pria) atau 2 (Wanita)
+    Tinggi Badan: Angka (float, dalam cm)
+
+Logika Program:
+    Untuk menentukan ukuran pakaian, perhatikan dua hal: jenis kelamin dan tinggi badan.
+    - Jika seseorang adalah 1 (Pria), maka:
+        - Jika tinggi badan < 120 cm, tampilkan pesan "Tinggi pria di bawah batas minimum".
+        - Jika tinggi badan < 165 cm, maka ukuran pakaian adalah 'S'.
+        - Jika tinggi badan ≥ 165 cm dan < 175 cm, maka ukuran pakaian adalah 'M'.
+        - Jika tinggi badan ≥ 175 cm dan < 185 cm, maka ukuran pakaian adalah 'L'.
+        - Jika tinggi badan ≥ 185 cm dan < 250 cm, maka ukuran pakaian adalah 'XL'.
+        - Selain itu, tampilkan pesan "Tinggi pria di atas batas maksimal".
+
+    - Untuk 2 (Wanita):
+        - Jika tinggi badan < 100 cm, tampilkan pesan "Tinggi wanita di bawah batas minimum".
+        - Jika tinggi badan < 155 cm, maka ukuran pakaian adalah 'S'.
+        - Jika tinggi badan ≥ 155 cm dan < 165 cm, maka ukuran pakaian adalah 'M'.
+        - Jika tinggi badan ≥ 165 cm dan < 175 cm, maka ukuran pakaian adalah 'L'.
+        - Jika tinggi badan ≥ 175 cm dan < 230 cm, maka ukuran pakaian adalah 'XL'.
+        - Selain itu, tampilkan pesan "Tinggi wanita di atas batas maksimal".
+    
+    - Selain input 1 (Pria) atau 2 (Wanita), program akan menampilkan pesan kesalahan.
+
+Nilai:
+    - Waktu pengerjaan: 15 menit
+    - Jika lebih dari 15 menit, nilai akan dikurangi 10 untuk setiap 5 menit keterlambatan.
+    - Jika lebih dari 25 menit, nilai menjadi 5.

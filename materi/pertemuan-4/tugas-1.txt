@@ -1,0 +1,21 @@
+===== Kalkulator Persegi Panjang =====
+
+Tujuan:
+    Menentukan luas persegi panjang berdasarkan panjang dan lebar yang diberikan.
+
+Input Program:
+    Tidak ada input dari pengguna
+    Panjang dan lebar persegi panjang ditentukan langsung dalam kode
+
+Logika Program:
+    Fungsi `luas_persegi_panjang` menerima dua parameter: panjang dan lebar.
+    Fungsi menghitung luas dengan rumus: luas = panjang * lebar
+    Fungsi menampilkan hasil perhitungan luas ke konsol
+
+    Panggil fungsi `luas_persegi_panjang` sebanyak 2 kali
+
+Output Program:
+    "Luas persegi panjang adalah <luas>"
+
+Waktu Pengerjaan:
+    10 menit

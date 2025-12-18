@@ -1,0 +1,22 @@
+JUDUL PROJECT: SMART WIKI-CARD GENERATOR
+
+TUGAS UTAMA:
+Buatlah satu file Python (misal: study-case.py) yang mengintegrasikan beberapa library untuk melakukan hal berikut:
+
+1. Mencari Materi (wikipedia):
+   - Program meminta input kata kunci dari pengguna.
+   - Mencari halaman Wikipedia (Bahasa Indonesia) yang sesuai.
+   - Mengambil Judul, URL, dan Ringkasan (3 kalimat).
+
+2. Menampilkan Data (tabulate & colorama):
+   - Tampilkan status proses (misal: "Sedang mencari...") dengan warna KUNING.
+   - Jika berhasil, tampilkan tabel rapi berisi:
+     - Judul Halaman
+     - URL
+     - Jumlah Karakter Ringkasan
+   - Tampilkan ringkasan teks di bawah tabel.
+
+3. Membuat Akses Cepat (qrcode):
+   - Buat gambar QR Code yang mengarah ke URL Wikipedia tersebut.
+   - Format: qr.png.
+   - Tampilkan pesan sukses berwarna HIJAU beserta nama file yang disimpan.

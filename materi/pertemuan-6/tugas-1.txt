@@ -1,0 +1,16 @@
+===== Dasar List dan Indexing =====
+
+Logika Program:
+    1. Buat sebuah variable list yang berisi nama-nama teman sekelas Anda 
+       (minimal 5 nama).
+    2. Cetak elemen pertama dan terakhir dari list tersebut.
+    3. Tambahkan 1 nama baru ke akhir list menggunakan append().
+    4. Sisipkan 1 nama baru di indeks ke-2 menggunakan insert().
+    5. Hapus 1 nama tertentu menggunakan remove().
+    6. Hapus elemen terakhir menggunakan pop() dan tampilkan nama yang 
+       dihapus.
+    7. Urutkan nama-nama tersebut dengan sort() dan tampilkan hasil 
+       akhirnya.
+
+Waktu Pengerjaan:
+    10 menit

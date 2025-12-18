@@ -1,0 +1,6 @@
+Buatlah program Python untuk menyimpan data tentang makanan favorit seseorang.
+Buat 3 variabel: nama, makanan favorit, dan minuman favorit.
+Variable harus dituliskan dengan gaya camel case
+Cetak menjadi satu kalimat utuh seperti contoh berikut:
+
+Halo, namaku <nama>. Aku suka sekali makan <makanan favorit> dan minum <minuman favorit>.

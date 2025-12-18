@@ -1,0 +1,46 @@
+
+Studi Kasus: Buku Tamu Digital
+
+Skenario:
+Resepsionis kantor ingin mencatat nama pengunjung yang datang.
+Jika hanya disimpan di variabel, data akan hilang saat program ditutup.
+Solusinya: simpan ke file agar data tetap ada.
+
+Tugas Kamu:
+------------
+Buat satu file Python bernama `buku_tamu.py` yang melakukan dua hal berikut:
+
+1. Input Nama Tamu (Menulis Data)
+   - Minta user menginputkan nama pengunjung.
+   - Simpan nama ke file `daftar_tamu.txt`.
+   - Gunakan mode **append** (`'a'`), agar data lama tidak hilang.
+   - Setiap nama ditulis di baris baru (`\n`).
+
+2. Tampilkan Daftar Tamu (Membaca Data)
+   - Setelah nama disimpan, buka kembali file `daftar_tamu.txt`.
+   - Gunakan mode **read** (`'r'`).
+   - Tampilkan seluruh isi file ke layar.
+
+3. Best Practice (WAJIB)
+   - Selalu gunakan **context manager** (`with open(...)`) untuk membuka file, baik saat menulis maupun membaca.
+
+Contoh Alur Program:
+--------------------
+Saat dijalankan pertama kali:
+
+    --- INPUT ---
+    Masukkan Nama Tamu: Budi
+
+    --- DAFTAR TAMU SAAT INI ---
+    Budi
+
+Jalankan lagi (data sebelumnya tidak hilang):
+
+    --- INPUT ---
+    Masukkan Nama Tamu: Siti
+
+    --- DAFTAR TAMU SAAT INI ---
+    Budi
+    Siti
+
+Kerjakan sesuai petunjuk di atas. Jika sudah benar, kamu sudah paham cara menyimpan dan membaca data file di Python!

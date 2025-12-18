@@ -1,0 +1,40 @@
+===============================================
+        STUDI KASUS: SISTEM DATA MAHASISWA
+===============================================
+
+DESKRIPSI:
+Buatlah program Python untuk mengelola data mahasiswa sederhana
+menggunakan file sebagai penyimpanan data.
+
+KETENTUAN PROGRAM:
+1. Program menampilkan menu utama yang berulang (loop)
+2. Menu yang tersedia:
+   - Menu 1: Tambah Data Mahasiswa
+   - Menu 2: Lihat Semua Data Mahasiswa  
+   - Menu 3: Keluar dari Program
+
+FITUR YANG HARUS DIBUAT:
+
+[Menu 1 - Tambah Data]
+- User diminta memasukkan nama mahasiswa
+- Data disimpan ke file "data_mahasiswa.txt"
+- Gunakan mode "append" agar data sebelumnya tidak terhapus
+- Setiap nama ditulis dalam baris baru
+
+[Menu 2 - Lihat Semua Data]
+- Baca semua data dari file "data_mahasiswa.txt"
+- Tampilkan daftar nama mahasiswa ke layar
+
+[Menu 3 - Keluar]
+- Tampilkan pesan terima kasih
+- Hentikan program (keluar dari loop)
+
+[Validasi]
+- Jika user memasukkan menu selain 1-3, tampilkan pesan error
+
+HINT:
+- Gunakan while True untuk loop menu
+- Gunakan with open() untuk membuka file
+- Mode "a" untuk append (tambah data)
+- Mode "r" untuk read (baca data)
+- Gunakan break untuk keluar dari loop

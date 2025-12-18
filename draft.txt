@@ -1,0 +1,5 @@
+draft pertemuan 8-13
+modularity dan pip (bahas sedikit package umum dari pip)
+penggunaan db
+
+p-14 responsi

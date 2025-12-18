@@ -1,0 +1,39 @@
+===== Kalkulator Konversi Waktu =====
+
+Tujuan:
+    Menetukan konversi waktu dari jam ke menit
+    Menetukan konversi waktu dari menit ke detik
+    Menetukan konversi waktu dari jam ke detik
+
+Input Program:
+    Waktu: 1 (Jam ke Menit), 2 (Menit ke Detik), atau 3 (Jam ke Detik)
+
+    - Jika 1 (Jam ke Menit), input selanjutnya:
+        - jam (float, dalam jam)
+    - Jika 2 (Menit ke Detik), input selanjutnya:
+        - menit (float, dalam menit)
+    - Jika 3 (Jam ke Detik), input selanjutnya:
+        - jam (float, dalam jam)
+
+Logika Program:
+    - Jika waktu adalah 1 (Jam ke Menit), maka:
+        - Menit = jam * 60
+    - Jika waktu adalah 2 (Menit ke Detik), maka:
+        - Detik = menit * 60
+    - Jika waktu adalah 3 (Jam ke Detik), maka:
+        - Detik = jam * 3600
+
+    Note: Gunakan fungsi untuk setiap konversi waktu di atas.
+    Note: Input dan print output di luar fungsi.
+
+Output Program:
+    - Jika waktu adalah 1 (Jam ke Menit), maka:
+        - Tampilkan "Hasil Konversi: {Menit} menit"
+    - Jika waktu adalah 2 (Menit ke Detik), maka:
+        - Tampilkan "Hasil Konversi: {Detik} detik"
+    - Jika waktu adalah 3 (Jam ke Detik), maka:
+        - Tampilkan "Hasil Konversi: {Detik} detik"
+    - Selain input 1, 2, atau 3, program akan menampilkan pesan kesalahan.
+
+Waktu Pengerjaan:
+    10 menit, Jika lebih dari itu, akan dikurangi 10 poin setiap 5 menit.
