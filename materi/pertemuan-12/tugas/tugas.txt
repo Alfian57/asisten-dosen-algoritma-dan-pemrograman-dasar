@@ -1,0 +1,15 @@
+Tugas Praktikum
+
+1. Hitung Gaji Bersih 
+Baca file CSV menggunakan pandas.
+Buat kolom baru bernama "Gaji_Bersih".
+Nilai Gaji_Bersih didapat dari Gaji_Pokok + Tunjangan untuk setiap karyawan.
+
+2. Hitung Rata-rata Gaji
+Berapa rata-rata Gaji_Bersih seluruh karyawan?
+Gunakan fungsi .mean() untuk menghitungnya.
+
+3. Buat Grafik
+Buat line chart yang menampilkan Gaji_Bersih setiap karyawan.
+X = Nama
+Y = Gaji_Bersih

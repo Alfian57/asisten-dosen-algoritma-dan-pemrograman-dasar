@@ -1,0 +1,33 @@
+================
+CHALLENGE: Kasir
+================
+
+1. Tampilkan menu utama berikut:
+	1. Burger (Rp 15.000)
+	2. Ayam Goreng (Rp 20.000)
+	3. Minuman (Rp 5.000)
+	4. Selesai & Bayar
+
+2. Setelah memilih menu (1-3), tanya:
+	"Mau ukuran Large (+Rp 5.000)? (y/n)"
+	- Jika ya, tambahkan Rp 5.000 ke harga menu.
+	- Jika tidak, harga tetap.
+
+3. Setelah setiap pesanan, tampilkan subtotal sementara.
+	Contoh: "Subtotal saat ini: Rp 20.000"
+
+4. Ulangi langkah 1-3 sampai user memilih "Selesai & Bayar" (menu nomor 4).
+
+5. Setelah selesai memesan:
+	- Hitung total belanja.
+	- Hitung PPN 10% dari total belanja.
+	- Hitung grand total (total belanja + pajak).
+	- Tampilkan struk sederhana.
+
+6. Minta input uang pembayaran dari user.
+	- Jika uang kurang, minta ulang sampai cukup.
+	- Jika uang cukup, tampilkan kembalian.
+
+CATATAN 
+- Tidak perlu menggunakan array/list untuk menyimpan nama item.
+- Pastikan variabel total belanja diinisialisasi di tempat yang benar (di luar loop menu, di dalam loop aplikasi utama).

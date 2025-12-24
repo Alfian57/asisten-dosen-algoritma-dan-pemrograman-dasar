@@ -1,0 +1,12 @@
+Tugas Praktikum
+
+1. Membaca Data Mahasiswa
+Buka file CSV nilai_mahasiswa.csv menggunakan Pandas, lalu tampilkan data.
+
+2. Menghitung Nilai Akhir
+Buat kolom baru "Nilai_Akhir" yang merupakan hasil rata rata nilai Tugas, UTS dan UAS untuk setiap mahasiswa.
+
+3. Visualisasi Hasil
+Buat line chart yang menampilkan Nilai_Akhir setiap mahasiswa.
+X = Nama
+Y = Nilai_Akhir
